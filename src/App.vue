@@ -1,6 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <div class="text-center mt-8 antialiased text-gray-800 font-sans">
+    <img alt="Vue logo" src="./assets/logo.png" class="inline-block" />
+    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  </div>
 </template>
 
 <script lang="ts">
@@ -14,14 +16,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
